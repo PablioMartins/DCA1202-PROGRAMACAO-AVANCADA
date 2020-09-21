@@ -69,7 +69,7 @@ int main(void){
      idade = *p4;
      printf("Letra (h): %d \n", idade);
      // Sim, "idade" recebeu o conteudo associado ao ponteiro "p4" sendo esse o primeiro valor
-     // do array "vetor", logo "idade" recebeu 31.
+     // de "vetor", logo "idade" recebeu 31.
 
      /* (i) */
      p5 = p4 +1;

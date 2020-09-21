@@ -2,7 +2,7 @@
 
 int main(void){
   float vet[5] = {1.1,2.2,3.3,4.4,5.5};
-  // atribucao dos valores do array "vet"
+  // atribucao dos valores do vetor "vet"
 
   float *f;
   int i;
@@ -21,10 +21,10 @@ int main(void){
   // escreve na tela o conteudo associado ao ponteiro "f" na posicao "i", apartir do ponteiro "f".
 
   printf("&vet[%d] = %X | ",i, &vet[i]);
-  // escreve na tela o endereco do array "vet" na posicao "i", apartir do proprio array.
+  // escreve na tela o endereco do vetor "vet" na posicao "i", apartir do proprio vetor.
 
   printf("(f + %d) = %X",i, f+i);
-  // escreve na tela o endereco do array "vet" na posicao "i", apartir do ponteiro "f"
+  // escreve na tela o endereco do vetor "vet" na posicao "i", apartir do ponteiro "f"
 
   }
   printf("\n");
