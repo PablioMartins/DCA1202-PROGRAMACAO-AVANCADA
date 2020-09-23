@@ -42,6 +42,7 @@ int main(){
         printf("%.2f ", val[i]);
     }
     printf("\n\n");
+    free(val);
 
     return 0;
 }
