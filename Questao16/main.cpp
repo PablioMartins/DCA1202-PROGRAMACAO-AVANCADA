@@ -25,9 +25,10 @@ void ordena(float *p, int n, float compara(float *a, float *b)){
 
 int main(){
     int Qtd;
-    //Pegunta ao usuario quantos valores ele vai digitar.
-    printf("Quantos valores serao digitados?\n");
-    scanf("%d", &Qtd);
+
+    printf("serao ordenados 50000 numeros!\n");
+    system("PAUSE");
+    Qtd = 50000;
 
     //alocaoção da memoria com base na quantidade que o usuario vai digitar
     float *val, *val2;
@@ -55,8 +56,8 @@ int main(){
     t_qsortD = clock() - t_qsortA;
 
     //Mostra o tempo para cada função.
-    printf("Tempo para ordena: %.4f\n", t_compD);
-    printf("Tempo para qsort: %.4f", t_qsortD);
+    printf("Tempo para ordena: %.1f\n", t_compD);
+    printf("Tempo para qsort: %.1f", t_qsortD);
 
     printf("\n\n");
     free(val);
